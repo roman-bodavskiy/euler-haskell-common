@@ -41,3 +41,5 @@ result-*
 tags
 stack.yaml.lock
 .direnv/
+nix/store/
+.pre-commit-config.yaml

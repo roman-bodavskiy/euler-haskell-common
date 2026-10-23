@@ -14,6 +14,7 @@
 {-# LANGUAGE DerivingStrategies         #-}
 {-# LANGUAGE DeriveAnyClass             #-}
 {-# LANGUAGE ScopedTypeVariables        #-}
+{-# LANGUAGE TypeOperators              #-}
 
 module Juspay.Extra.NonEmptyText
   ( NonEmptyText,
