@@ -25,6 +25,7 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE StandaloneDeriving  #-}
 {-# LANGUAGE ViewPatterns        #-}
+{-# LANGUAGE TypeOperators       #-}
 
 module Juspay.Extra.Parsing
   (
@@ -73,7 +74,6 @@ module Juspay.Extra.Parsing
   , toUTC
   ) where
 
-import           Control.Applicative (liftA2)
 import           Control.Arrow (Kleisli (Kleisli), runKleisli)
 import           Control.Category (Category ((.)))
 import           Data.Char (isDigit)
